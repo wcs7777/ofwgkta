@@ -8,9 +8,9 @@
 1. [Sobre o projeto](#sobre-o-projeto)
 2. [Tecnologias](#tecnologias)
 3. [Funcionalidades](#funcionalidades)
-4. [Demonstração](#demonstração)
-5. [Como rodar](#como-rodar)
-5. [Autor](#autor)
+4. [Como rodar](#como-rodar)
+5. [Demonstração](#demonstração)
+6. [Autor](#autor)
 
 ***
 
