@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icones/adicionar.png</file>
+        <file>icones/cancelar.png</file>
+        <file>icones/confirmar.png</file>
+        <file>icones/estoque.png</file>
+        <file>icones/fornecedor.png</file>
+        <file>icones/relatorio.png</file>
+        <file>icones/remover.png</file>
+        <file>icones/venda.png</file>
+        <file>icones/voltar.png</file>
+        <file>icones/estilo.css</file>
+        <file>icones/oddfuture.png</file>
+        <file>icones/venda_estilo.css</file>
+    </qresource>
+</RCC>

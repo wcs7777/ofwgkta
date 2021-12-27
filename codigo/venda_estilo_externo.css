@@ -1,0 +1,7 @@
+QAbstractSpinBox, QLineEdit {
+	border: none;
+}
+
+QPushButton {
+	background-color: #272822;
+}

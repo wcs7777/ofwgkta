@@ -1,0 +1,145 @@
+QAbstractSpinBox,
+QLabel,
+QLineEdit,
+QPushButton,
+QTableView,
+QToolTip,
+QWidget {
+	font-family: "Lato, Arial";
+}
+
+QAbstractSpinBox,
+QHeaderView::section,
+QLabel,
+QLineEdit,
+QPushButton,
+QTableView {
+	color: #FFFAFA;
+}
+
+QAbstractSpinBox, QLabel, QLineEdit, QTableView {
+	selection-background-color: #FFFAFA;
+	selection-color: #272822;
+}
+
+QAbstractSpinBox, QLabel, QLineEdit, QPushButton {
+	font-size: 12pt;
+}
+
+QAbstractSpinBox, QLineEdit {
+	border: 1px solid #DEDBDB;
+}
+
+QAbstractSpinBox:disabled, QLineEdit:disabled {
+	color: #E2E0E0;
+}
+
+QAbstractSpinBox:focus, QLineEdit:focus {
+	border-color: #FFFAFA;
+}
+
+QHeaderView::section, QTableView, QToolTip {
+	font-size: 10pt;
+}
+
+QHeaderView::section, QPushButton, QTableView {
+	border: none;
+}
+
+QHeaderView::section, QTableView, QWidget {
+	background-color: #272822;
+}
+
+QLabel#outTitulo, QPushButton[relatorio="true"] {
+	font-size: 18pt;
+}
+
+QAbstractSpinBox {
+	qproperty-buttonSymbols: NoButtons;
+	qproperty-wrapping: true;
+}
+
+QDoubleSpinBox {
+	qproperty-maximum: 9999999.99;
+}
+
+QDoubleSpinBox#outTotal {
+	border: none;
+}
+
+QHeaderView::section {
+	border-bottom: 2px solid #FFF;
+	height: 25px;
+}
+
+QLabel[err="true"] {
+	color: #EC6448;
+}
+
+QLabel#outTitulo {
+	qproperty-alignment: AlignCenter;
+}
+
+QLineEdit#inPesquisa {
+	border-width: 2px;
+	border-radius: 12px;
+	font-style: italic;
+	qproperty-clearButtonEnabled: true;
+}
+
+QPushButton {
+	background-color: #33637B;
+	qproperty-autoDefault: true;
+}
+
+QPushButton#pbVoltar, QSplitter#vsMenu > QPushButton {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+QSplitter#vsMenu > QPushButton:checked {
+	background-color: #34385E;
+}
+
+QPushButton#pbCancelar {
+	background-color: #2C3E50;
+	qproperty-icon: url(:/icones/cancelar.png);
+}
+
+QPushButton#pbConfirmar {
+	qproperty-icon: url(:/icones/confirmar.png);
+	qproperty-iconSize: 24px 24px;
+}
+
+QPushButton#pbVoltar {
+	qproperty-icon: url(:/icones/voltar.png);
+	qproperty-iconSize: 32px 32px;
+}
+
+QScrollBar:vertical {
+	background-color: #B0ADAD;
+	width: 5px;
+}
+
+QScrollBar::handle:vertical {
+	background-color: #4C7C9D;
+}
+
+QSpinBox {
+	qproperty-maximum: 9999999;
+}
+
+QTableView {
+	qproperty-selectionMode: SingleSelection;
+	qproperty-selectionBehavior: SelectRows;
+	qproperty-showGrid: false;
+	qproperty-sortingEnabled: true;
+}
+
+QTableWidget {
+	qproperty-selectionMode: NoSelection;
+}
+
+QToolTip {
+	background-color: #FFFAFA;
+	color: #272822;
+}

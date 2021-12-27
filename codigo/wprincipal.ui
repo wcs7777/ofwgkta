@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WPrincipal</class>
+ <widget class="QWidget" name="WPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>902</width>
+    <height>522</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>902</width>
+    <height>522</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>OFWGKTA - Sistema Gerenciador de Estoque</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagens.qrc">
+    <normaloff>:/icones/oddfuture.png</normaloff>:/icones/oddfuture.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>6</number>
+   </property>
+   <property name="topMargin">
+    <number>6</number>
+   </property>
+   <property name="rightMargin">
+    <number>6</number>
+   </property>
+   <property name="bottomMargin">
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QSplitter" name="vsMenu">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>123</width>
+       <height>510</height>
+      </size>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="handleWidth">
+      <number>6</number>
+     </property>
+     <widget class="QPushButton" name="pbEstoque">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ESTOQUE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="imagens.qrc">
+        <normaloff>:/icones/estoque.png</normaloff>:/icones/estoque.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+E</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbVenda">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VENDA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="imagens.qrc">
+        <normaloff>:/icones/venda.png</normaloff>:/icones/venda.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+N</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbFornecedor">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FORNECEDOR&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="imagens.qrc">
+        <normaloff>:/icones/fornecedor.png</normaloff>:/icones/fornecedor.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+F</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbRelatorio">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;RELATÓRIO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="imagens.qrc">
+        <normaloff>:/icones/relatorio.png</normaloff>:/icones/relatorio.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+R</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="menu">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>761</width>
+       <height>510</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>761</width>
+       <height>510</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagens.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pbEstoque</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>limparMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbFornecedor</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>limparMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbRelatorio</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>limparMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbVenda</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>limparMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbEstoque</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>estoque()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbVenda</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>venda()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbRelatorio</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>relatorio()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbFornecedor</sender>
+   <signal>clicked()</signal>
+   <receiver>WPrincipal</receiver>
+   <slot>fornecedor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>estoque()</slot>
+  <slot>venda()</slot>
+  <slot>fornecedor()</slot>
+  <slot>relatorio()</slot>
+  <slot>limparMenu()</slot>
+ </slots>
+</ui>
