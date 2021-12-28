@@ -57,7 +57,9 @@ Para compilar o sistema a partir do código fonte é necessário baixar o [Qt Cr
 ***
 
 ## Autor
-Willian Carlos
+Willian Carlos  
+<wcs7777git@gmail.com>  
+<https://www.linkedin.com/in/williancarlosdasilva/>
 
 [1]: https://www.cplusplus.com/
 [2]: https://pt.wikipedia.org/wiki/Curva_ABC
